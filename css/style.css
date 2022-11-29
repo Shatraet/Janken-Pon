@@ -1,0 +1,96 @@
+
+body {
+  background: linear-gradient(90deg, rgba(230,36,11,1) 0%, rgba(33,217,224,1) 49%, rgba(52,179,32,1) 100%);}
+header {
+  background: rgb(135, 31, 255);
+  padding: 20px;
+}
+header h1 {
+  color: rgb(43, 255, 24);
+  text-align: center;
+  font-weight: 100;
+}
+.score-board {
+  border: 6px solid #fff;
+  width: 300px;
+  margin: 40px auto;
+  font-size: 40px;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+  border-style: groove;
+
+}
+.badge {
+  background: #e4cece;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 6px;
+}
+#user-label {
+  color: purple;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-10%, -50%);
+}
+#computer-label {
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(10%, -50%);
+  
+}
+.result {
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+}
+.result span:nth-child(1) {
+  color: PURPLE;
+}
+.result span:nth-child(2) {
+  color: YELLOW;
+}
+.result {
+  line-height: 50px;
+}
+.choices {
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.choice {
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto 10px;
+  transition: all 0.3s ease;
+}
+#action-message {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 40px 0;
+}
+.winningStyles {
+  border: 3px solid #62ff9e;
+  background-color: #06770d;
+  box-shadow: 0 0 20px #043507;
+}
+.losingStyles {
+  border: 3px solid #ff3f3f;
+  background-color: #880909;
+  box-shadow: 0 0 20px #2e0303;
+}
+.drawStyles {
+  border: 3px solid #444;
+  background-color: #222;
+  box-shadow: 0 0 20px #222;
+}
+
