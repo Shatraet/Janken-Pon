@@ -5,9 +5,9 @@ const userScore_span = document.getElementById('user-score');
 const computerScore_span = document.getElementById('computer-score');
 const scoreBoard_div = document.querySelector('.score-board');
 const result_div = document.querySelector('.result');
-const rock_div = document.getElementById('fire');
-const paper_div = document.getElementById('water');
-const scissors_div = document.getElementById('grass');
+const fire_div = document.getElementById('fire');
+const water_div = document.getElementById('water');
+const grass_div = document.getElementById('grass');
 
 function getComputerChoice() {
 const choices = ['fire', 'water', 'grass'];
@@ -37,7 +37,7 @@ computerScore_span.innerHTML = computerScore;
 result_div.innerHTML = `<p><span style="color:yellow">${convertCase(computer)}</span> beats <span style="color:purple">${convertCase(user)}</span>. You suck!</p>`;
 const roundStatus = document.getElementById(user);
 roundStatus.classList.add('losingStyles');
-setTimeout(() => roundStatus.classList.remove('losingStyles'), 300);
+
 }
 
 function draw(user, computer) {
@@ -72,8 +72,8 @@ break;
 }
 }
 function main() {
-rock_div.addEventListener('click', () => game('fire'));
-paper_div.addEventListener('click', () => game('water'));
-scissors_div.addEventListener('click', () => game('grass'));
+fire_div.addEventListener('click', () => game('fire'));
+water_div.addEventListener('click', () => game('water'));
+grass_div.addEventListener('click', () => game('grass'));
 }
 main();
