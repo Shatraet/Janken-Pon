@@ -1,6 +1,7 @@
 
 body {
-  background: linear-gradient(90deg, rgba(230,36,11,1) 0%, rgba(33,217,224,1) 49%, rgba(52,179,32,1) 100%);}
+  background: linear-gradient(90deg, rgba(82,14,177,1) 0%, rgba(43,9,121,1) 50%, rgba(254,255,0,1) 100%);
+}
 header {
   background: rgb(135, 31, 255);
   padding: 20px;
@@ -11,6 +12,7 @@ header h1 {
   font-weight: 100;
 }
 .score-board {
+  color: white;
   border: 6px solid #fff;
   width: 300px;
   margin: 40px auto;
@@ -23,13 +25,13 @@ header h1 {
 
 }
 .badge {
-  background: #e4cece;
+  background: #383232;
   text-transform: uppercase;
   font-size: 14px;
   padding: 10px 6px;
 }
 #user-label {
-  color: purple;
+  color: rgb(153, 77, 184);
   position: absolute;
   top: 50%;
   left: -5%;
@@ -44,13 +46,14 @@ header h1 {
   
 }
 .result {
+ color: white;
   font-weight: 300;
   text-align: center;
   font-size: 32px;
   line-height: 40px;
 }
 .result span:nth-child(1) {
-  color: PURPLE;
+  color: purple;
 }
 .result span:nth-child(2) {
   color: YELLOW;
@@ -72,6 +75,7 @@ header h1 {
   transition: all 0.3s ease;
 }
 #action-message {
+  color: white;
   text-align: center;
   font-weight: 500;
   text-transform: uppercase;
@@ -79,14 +83,14 @@ header h1 {
   margin: 40px 0;
 }
 .winningStyles {
-  border: 3px solid #62ff9e;
-  background-color: #06770d;
-  box-shadow: 0 0 20px #043507;
+  border: 3px solid #da62ff;
+  background-color: #6a0677;
+  box-shadow: 0 0 20px #260435;
 }
 .losingStyles {
-  border: 3px solid #ff3f3f;
-  background-color: #880909;
-  box-shadow: 0 0 20px #2e0303;
+  border: 3px solid #fcff3f;
+  background-color: #888609;
+  box-shadow: 0 0 20px #2d2e03;
 }
 .drawStyles {
   border: 3px solid #444;
